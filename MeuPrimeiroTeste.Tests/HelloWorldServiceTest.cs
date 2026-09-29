@@ -26,9 +26,9 @@ public class HelloWorldServiceTest
         var service = new HelloWorldService();
 
         // Act
-        var resultado = service.GerarSaudacao("Caio");
+        var resultado = service.GerarSaudacao("Luiz");
 
         // Assert
-        Assert.Equal("Hello, Caio!", resultado);
+        Assert.Equal("Hello, Luiz!", resultado);
     }
 }
